@@ -1,0 +1,3 @@
+Online audio feature extraction in Pytorch module.
+Like STFT, melspectogram...
+Can be trained through back propagation(BP).
