@@ -344,7 +344,7 @@ def mel_frequencies(n_mels=128, fmin=0.0, fmax=11025.0, htk=False):
 
 class melspectrogram(nn.Module):
 
-    def __init__(self, sr=44100, n_fft=1024, n_mels=40, fmin=0.0, fmax=None, htk=False,
+    def __init__(self, sr=44100, n_fft=1024, n_mels=128, fmin=0.0, fmax=None, htk=False,
             norm=1, dtype=np.float32, trained=False):
 
         super(melspectrogram, self).__init__()
